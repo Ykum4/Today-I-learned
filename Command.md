@@ -1,4 +1,4 @@
-* herokuでのデプロイ
+ herokuでのデプロイ
 - gem pgがある場合はまずコマンドで`brew install postgresql`でインストールする
   これをせずにbundle installすると下のようなエラーがターミナルで出る
  #terminal
