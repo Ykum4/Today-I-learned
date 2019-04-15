@@ -3,19 +3,18 @@
 $('li') => jQueryオブジェクトは[]配列のようになっている。
 
 - indexメソッド
+　　　
+<ul>
+  <li>インデックス１</li>
+  <li>インデックス２</li>
+  <li>インデックス３</li>
+</ul>
 
-　　　　
-    <ul>
-      <li>インデックス１</li>
-      <li>インデックス２</li>
-      <li>インデックス３</li>
-   </ul>
+$(function(){
+ $('li').click(function({
+    var index = $('li').index($(this));
+ })
 
-   $(function(){
-     $('li').click(function({
-        var index = $('li').index($(this));
-     })
-
-   });
+});
  
  indexを用いるとindex番号を取得する事が出来る。
