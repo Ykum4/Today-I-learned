@@ -3,6 +3,7 @@
 $('li') => jQueryオブジェクトは[]配列のようになっている。
 
 - indexメソッド　
+
   #javascript
   <ul>
     <li>インデックス１</li>
