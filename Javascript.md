@@ -3,12 +3,12 @@
 $('li') => jQueryオブジェクトは[]配列のようになっている。
 
 - indexメソッド　
+  #javascript
   <ul>
     <li>インデックス１</li>
     <li>インデックス２</li>
     <li>インデックス３</li>
   </ul>
-
   $(function(){
    $('li').click(function({
       var index = $('li').index($(this));
