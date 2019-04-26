@@ -1,0 +1,4 @@
+# Credentialsの使い方
+
+最終課題では使用するAPIキーを環境変数として定義して呼び出していたがその時の選択肢としてあったのがgem dotenvもしくはconfig, secretsを使用するだった。
+- Rails5.2からはcredentials.yml.encが使用できるようになったのでこの使い方を記述して行こうと思う -
