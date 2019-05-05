@@ -27,3 +27,5 @@ def after_sign_in_path_for(resource)
 end
 ```
 これでうまくいく。
+
+[参考](https://github.com/plataformatec/devise/wiki/How-To:-Change-the-redirect-path-after-destroying-a-session-i.e.-signing-out)
